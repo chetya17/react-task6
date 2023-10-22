@@ -1,0 +1,48 @@
+.App {
+  color: white;
+  text-align: center;
+  background-color: #000080;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.firstSection > div {
+  width: 50%;
+}
+
+.leftSection {
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 100px 0;
+}
+
+.leftSectiondiv {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.card {
+  background-color: #333399;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #00005a;
+  color: white;
+  padding: 10px 0;
+}
